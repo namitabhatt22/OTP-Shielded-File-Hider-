@@ -15,7 +15,7 @@ public class MyConnection {
             Class.forName("com.mysql.cj.jdbc.Driver"); //ye driver load karna hai
 
             // Establish connection
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/project_db?", "root", "Agra@2010"); //db name = project_db
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/project_db?", "root", "password"); //db name = project_db
             System.out.println("Database connection established successfully!");
 
         }
